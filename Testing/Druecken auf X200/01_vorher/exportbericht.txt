@@ -1,0 +1,181 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220517194031
+Username: LIT\Administrator
+RunAs User: LIT\Administrator
+Configuration Name: 
+Machine: WINSER02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Administrator\.vscode\extensions\ms-vscode.powershell-2022.5.1\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2022.5.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\Administrator\.vscode\extensions\ms-vscode.powershell-2022.5.1\modules' -EnableConsoleRepl -StartupBanner '=====> PowerShell Integrated Console v2022.5.1 <=====
+' -LogLevel 'Normal' -LogPath 'c:\Users\Administrator\.vscode\extensions\ms-vscode.powershell-2022.5.1\logs\1652808333-0d351be5-3c46-45ab-adad-26906d5394521652804979676\EditorServices.log' -SessionDetailsPath 'c:\Users\Administrator\.vscode\extensions\ms-vscode.powershell-2022.5.1\sessions\PSES-VSCode-9080-700011' -FeatureFlags @() 
+Process ID: 7052
+PSVersion: 5.1.17763.592
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.592
+BuildVersion: 10.0.17763.592
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+diese Datei wird nun von Correct-Function gecheckt: C:\Code\postprozessor\Testing\Druecken auf X200\01_vorher\1_SeiteL_Lichtgr_6.535_T01_2.xcs
+HIER STEHT FILE2: C:\Code\postprozessor\Testing\Druecken auf X200\01_vorher\1_SeiteL_Lichtgr_6.535_T01_2.xcs
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:221 char:5
++   & $State.XConverter -ow -s -report -m 0 -i $State.M200Infiles -env  ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:221 char:5
++   & $State.XConverter -ow -s -report -m 0 -i $State.M200Infiles -env  ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:223 char:5
++   & $State.XConverter -ow -s -m 2 -i $State.M200tmpFiles -env $M200 - ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:223 char:5
++   & $State.XConverter -ow -s -m 2 -i $State.M200tmpFiles -env $M200 - ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:225 char:5
++   & $State.XConverter -ow -s -m 13 -i $State.M200tmpFiles2 -env $M200 ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:225 char:5
++   & $State.XConverter -ow -s -m 13 -i $State.M200tmpFiles2 -env $M200 ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+>> TerminatingError(Remove-Item): "Cannot bind argument to parameter 'Path' because it is null."
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:228 char:15
++   Remove-Item $State.M200tmpFiles
++               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:228 char:15
++   Remove-Item $State.M200tmpFiles
++               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+>> TerminatingError(Remove-Item): "Cannot bind argument to parameter 'Path' because it is null."
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:231 char:15
++   Remove-Item $State.M200tmpFiles2
++               ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:231 char:15
++   Remove-Item $State.M200tmpFiles2
++               ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:221 char:5
++   & $State.XConverter -ow -s -report -m 0 -i $State.M200Infiles -env  ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:221 char:5
++   & $State.XConverter -ow -s -report -m 0 -i $State.M200Infiles -env  ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:223 char:5
++   & $State.XConverter -ow -s -m 2 -i $State.M200tmpFiles -env $M200 - ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:223 char:5
++   & $State.XConverter -ow -s -m 2 -i $State.M200tmpFiles -env $M200 - ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:225 char:5
++   & $State.XConverter -ow -s -m 13 -i $State.M200tmpFiles2 -env $M200 ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'C:\Program Files\SCM Group\Maestro\XConverter.exe' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:225 char:5
++   & $State.XConverter -ow -s -m 13 -i $State.M200tmpFiles2 -env $M200 ...
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program File...\XConverter.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+>> TerminatingError(Remove-Item): "Cannot bind argument to parameter 'Path' because it is null."
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:228 char:15
++   Remove-Item $State.M200tmpFiles
++               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:228 char:15
++   Remove-Item $State.M200tmpFiles
++               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+>> TerminatingError(Remove-Item): "Cannot bind argument to parameter 'Path' because it is null."
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:231 char:15
++   Remove-Item $State.M200tmpFiles2
++               ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Code\postprozessor\postproz_neu_json_import.ps1:231 char:15
++   Remove-Item $State.M200tmpFiles2
++               ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+**********************
+Windows PowerShell transcript end
+End time: 20220517194034
+**********************

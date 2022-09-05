@@ -1,0 +1,44 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20220601092110
+Benutzername: GRSLFL160\WeberT
+RunAs-Benutzer: GRSLFL160\WeberT
+Konfigurationsname: 
+Computer: GRSLFL160 (Microsoft Windows NT 10.0.19042.0)
+Hostanwendung: -NoExit -ExecutionPolicy Unrestricted -InputFormat XML -File C:\Users\WeberT\AppData\Local\PYTHA25.0\pytha_cam_batch_scm_maestro.ps1 -SystemPath  -SystemCommand -Convert=[edit] -SystemProfile 
+Prozess-ID: 10692
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+diese Datei wird nun von Correct-Function gecheckt: C:\Users\WeberT\Desktop\Ultimativer Test\02 Name = 1_SeiteL____1\Drücken auf X200, _2 mit M200\1_SeiteL____2.xcs
+HIER STEHT FILE2: C:\Users\WeberT\Desktop\Ultimativer Test\02 Name = 1_SeiteL____1\Drücken auf X200, _2 mit M200\1_SeiteL____2.xcs
+Achtung! - Datei C:\Users\WeberT\Desktop\Ultimativer Test\02 Name = 1_SeiteL____1\Drücken auf X200, _2 mit M200\1_SeiteL____2__tmp.pgmx nicht gefunden.
+Achtung! - Ausführung der Anwendung unterbrochen.
+Achtung! - Datei C:\Users\WeberT\Desktop\Ultimativer Test\02 Name = 1_SeiteL____1\Drücken auf X200, _2 mit M200\1_SeiteL____2__tmp2.pgmx nicht gefunden.
+Achtung! - Ausführung der Anwendung unterbrochen.
+Remove-Item : Der Pfad "C:\Users\WeberT\Desktop\Ultimativer Test\02 Name = 1_SeiteL____1\Drücken auf X200, _2 mit 
+M200\1_SeiteL____2__tmp.pgmx" kann nicht gefunden werden, da er nicht vorhanden ist.
+In Zeile:18 Zeichen:5
++     Remove-Item $State.M200tmpFiles
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\WeberT...____2__tmp.pgmx:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : Der Pfad "C:\Users\WeberT\Desktop\Ultimativer Test\02 Name = 1_SeiteL____1\Drücken auf X200, _2 mit 
+M200\1_SeiteL____2__tmp2.pgmx" kann nicht gefunden werden, da er nicht vorhanden ist.
+In Zeile:26 Zeichen:5
++     Remove-Item $State.M200tmpFiles2
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\WeberT...___2__tmp2.pgmx:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+**********************
+Ende der Windows PowerShell-Aufzeichnung
+Endzeit: 20220601092133
+**********************

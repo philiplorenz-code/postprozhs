@@ -1,0 +1,42 @@
+﻿SetMachiningParameters("AB", 1, 12, 16973824, false);
+CreatePolyline("SeiteL", 0.0000, 0.0000);
+AddSegmentToPolyline(755.0000, 0.0000);
+AddSegmentToPolyline(755.0000, 546.0000);
+AddArc2PointRadiusToPolyline(0.0000, 546.0000, 4000.0000, true, false);
+AddSegmentToPolyline(0.0000, 0.0000);
+CreateFinishedWorkpieceFromExtrusion("SeiteL_19.0", 19.0000);
+CreateRawWorkpiece("SeiteL_19.0", 5.0000, 5.0000, 5.0000, 5.0000, 0.0000, 0.0000);
+SetWorkpieceSetupPosition(5.0000, 5.0000, 0.0000, 0.0000);
+try {
+CreateMacro("PYTHA_INIT_1", "PYTHA_INIT");
+}
+catch (System.Exception e) {}
+
+
+CreatePolyline("", 135.2711, 144.3572);
+AddSegmentToPolyline(314.4068, 144.3572);
+AddSegmentToPolyline(314.4068, 276.9771);
+AddSegmentToPolyline(135.2711, 276.9771);
+AddSegmentToPolyline(135.2711, 144.3572);
+SetPneumaticHoodPosition(1);
+CreateContourPocket("", 10.0000, "", TypeOfProcess.ConcentricalPocket, "E002");
+ResetPneumaticHood();
+ResetApproachStrategy();
+ResetRetractStrategy();
+
+SetMacroParam("X", 501.5094);
+SetMacroParam("Y", 427.8933);
+SetMacroParam("Length", 212.2547);
+SetMacroParam("Width", 133.8652);
+SetMacroParam("Angle", 0.0000);
+try {
+CreateMacro("PYTHA_4Ecken_vonOben_Ausspitzen_1", "PYTHA_4Ecken_vonOben_Ausspitzen");
+}
+catch (System.Exception e) {
+	CreateMessage("Macro error!", e.ToString(), false, false);
+}
+
+try {
+CreateMacro("PYTHA_PARK_3", "PYTHA_PARK");
+}
+catch (System.Exception e) {}

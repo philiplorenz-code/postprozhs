@@ -1,0 +1,20 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20220601093010
+Benutzername: GRSLFL160\WeberT
+RunAs-Benutzer: GRSLFL160\WeberT
+Konfigurationsname: 
+Computer: GRSLFL160 (Microsoft Windows NT 10.0.19042.0)
+Hostanwendung: -NoExit -ExecutionPolicy Unrestricted -InputFormat XML -File C:\Users\WeberT\AppData\Local\PYTHA25.0\pytha_cam_batch_scm_maestro.ps1 -SystemPath  -SystemCommand -Convert=[edit] -SystemProfile 
+Prozess-ID: 2548
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+diese Datei wird nun von Correct-Function gecheckt: C:\Users\WeberT\Desktop\Ultimativer Test\05 Name = 1_SeiteL_Lichtgr_6.542_T01_1\Drücken auf M200\1_SeiteL_Lichtgr_6.542_T01_2.xcs
+HIER STEHT FILE2: C:\Users\WeberT\Desktop\Ultimativer Test\05 Name = 1_SeiteL_Lichtgr_6.542_T01_1\Drücken auf M200\1_SeiteL_Lichtgr_6.542_T01_2.xcs
